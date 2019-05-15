@@ -21,7 +21,7 @@ class ContactMailer
      * E-mail получателя
      * @var string
      */
-    private static $emailTo = 'nikolo.ivolgin@mail.ru';
+    private static $emailTo = 'druzhnyepetelki@yandex.ru';
 
     /**
      * Отправляет писмо, если письмо отправлено,
