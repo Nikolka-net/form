@@ -48,7 +48,7 @@ class ContactMailer
         // Логин или E-mail целиком
         $mailer->Username = self::$emailFrom;
         // Пароль от почтового ящика
-        $mailer->Password = 'kalina2017';
+        $mailer->Password = 'password from nickolaiivolgin';
         // Протокол соединения
         $mailer->SMTPSecure = 'ssl';
         // Порт для исходящаей почты
@@ -66,7 +66,7 @@ class ContactMailer
         $mailer->Subject = 'Заполнена форма обратной связи';
         // Основное тело письма
         $mailer->Body = $body;
-        
+
         // Отправляет письмо
         if ($mailer->send()) {
         	return true;
